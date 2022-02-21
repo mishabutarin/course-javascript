@@ -124,7 +124,7 @@ function deleteTextNodesRecursive(where) {
       where.removeChild(el);
       i--;
     }
-    if (el.nodeType === Element.TEXT_NODE) {
+    else if (el.nodeType === Element.ELEMENT_NODE) {
       deleteTextNodesRecursive(el);
     }
   }
