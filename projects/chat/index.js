@@ -1,4 +1,3 @@
-import './index.html';
-import MegaChat from './megaChat';
+import MegaChat from './megaChat.js';
 
 new MegaChat();

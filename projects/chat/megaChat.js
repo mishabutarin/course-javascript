@@ -1,11 +1,11 @@
-import LoginWindow from './ui/loginWindow';
-import MainWindow from './ui/mainWindow';
-import UserName from './ui/userName';
-import UserList from './ui/userList';
-import UserPhoto from './ui/userPhoto';
-import MessageList from './ui/messageList';
-import MessageSender from './ui/messageSender';
-import WSClient from './wsClient';
+import LoginWindow from './ui/loginWindow.js';
+import MainWindow from './ui/mainWindow.js';
+import UserName from './ui/userName.js';
+import UserList from './ui/userList.js';
+import UserPhoto from './ui/userPhoto.js';
+import MessageList from './ui/messageList.js';
+import MessageSender from './ui/messageSender.js';
+import WSClient from './wsClient.js';
 
 export default class MegaChat {
   constructor() {
