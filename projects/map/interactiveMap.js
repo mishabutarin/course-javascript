@@ -58,7 +58,7 @@ export default class InteractiveMap {
   createPlacemark(coords) {
     const placemark = new ymaps.Placemark(coords);
     placemark.events.add('click', (e) => {
-      const coords = e.get('target').geometry.getCoordinates();
+      const coords = e.get('targer').geometry.getCoordinates();
       this.onClick(coords);
     });
     this.clusterer.add(placemark);
